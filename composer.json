@@ -1,0 +1,27 @@
+{
+  "name": "cdvcol/yii2-requirejs",
+  "description": "Yii2 require.js",
+  "license": "MIT",
+  "type": "yii2-extension",
+  "authors": [
+    {
+      "name": "cdvcol",
+      "email": "dev@cacko.net"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "Cdvcol\\Yii2\\RequireJs\\": "src/"
+    }
+  },
+  "require": {
+    "php": "~8.1",
+    "yiisoft/yii2": "~2.0.45"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://asset-packagist.org"
+    }
+  ]
+}
